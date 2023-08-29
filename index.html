@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Any input Burger zone</title>
+</head>
+
+<body>
+    <img src="burger zone loog.png" alt="burger" width="300px">
+
+    <hr>
+    <h1>Create a Burger!</h1>
+    <label for="protein">What type of protein would you like? <input type="text" name="protein" value="text"
+            id="protein"></label>
+
+    <hr>
+    <label for="patties">How many patties would you like? <input type="number" name="patties" value="number"
+            id="patties"></label>
+
+    <hr>
+    <label for="cooked">How do you want your patty cooked</label>
+    <span>Rare </span><input type="range" min="Rare" max="Well-done" name="cooked"><span> Well-done</span>
+
+    <hr>
+    <label for="toppings">What toppings would you like?</label>
+    <input type="checkbox" id="Lettuce" name="toppings" value="Lettuce">
+    <label for="Lettuce">Lettuce</label>
+    <input type="checkbox" id="Tomato" name="toppings" value="Tomato">
+    <label for="Tomato">Tomato</label>
+    <input type="checkbox" id="Onion" name="toppings" value="Onion">
+    <label for="Onion">Onion</label>
+
+    <hr>
+    <p>Would you like to add cheese?</p>
+    <input type="radio" id="Yes" name="cheese" value="Yes">
+    <label for="Yes">Yes</label>
+    <input type="radio" id="No" name="cheese" value="No">
+    <label for="No">No</label>
+
+    <hr>
+    <section>
+        <label for="bun">What type of bun would you like?</label>
+        <select>
+            <option value="Sesame">Sesame</option>
+            <option value="Potato">Potato</option>
+            <option value="Pretzel">Pretzel</option>
+        </select>
+
+    </section>
+
+    <hr>
+    <section>
+        <label for="sauce">What type of sauce would you like?</label>
+        <select>
+            <option value="Ketchup">Ketchup</option>
+            <option value="Mayo">Mayo</option>
+            <option value="Mustard">Mustard</option>
+        </select>
+    </section>
+    <hr>
+
+    <label for="add">Anything else you want to add?</label><br>
+    <textarea name="add" id="add" cols="50" rows="3"></textarea>
+    <hr>
+
+    <section>
+        <input type="submit" value="submit">
+    </section>
+
+</body>
+
+</html>
